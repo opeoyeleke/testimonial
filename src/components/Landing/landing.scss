@@ -1,0 +1,423 @@
+@media (max-width: 790px,) {
+}
+
+@media (min-width: 790px,) {
+  .landing-page {
+    .navbar-main {
+      height: 80px;
+      padding: 0 10vw;
+      min-width: 813px;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      background-color: #ffffff;
+      color: #242120;
+      font-size: 13px;
+      font-weight: 400;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      z-index: 5;
+      .left {
+        margin: auto 0;
+      }
+      .right {
+        margin: auto 0;
+        ul {
+          display: inline-flex;
+          list-style-type: none;
+          padding-inline-start: 0px;
+          .custom {
+            margin: auto 5px;
+          }
+          li {
+            margin: auto 1.5rem;
+            a {
+              color: rgb(48, 47, 47);
+              &:hover {
+                text-decoration: none;
+                color: #ff5c00;
+              }
+              &:active {
+                opacity: 0.6;
+              }
+            }
+            button {
+              color: white;
+              background-color: #ff5c00;
+            }
+          }
+        }
+      }
+    }
+
+    .navbar-sec {
+      background-color: #ffffff;
+      color: #242120;
+      border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+      font-size: 13px;
+      z-index: 4;
+      .wrapper {
+        margin: auto;
+        ul {
+          display: inline-flex;
+          list-style-type: none;
+          padding-inline-start: 0px;
+          li {
+            margin: auto 2.6vw;
+            a {
+              color: rgb(48, 47, 47);
+              &:hover {
+                text-decoration: none;
+                color: #ff5c00;
+              }
+              &:active {
+                opacity: 0.6;
+              }
+            }
+            button {
+              color: white;
+              background-color: #ff5c00;
+            }
+          }
+        }
+      }
+    }
+
+    .banner {
+      height: 568px;
+      margin-top: 20px;
+      overflow: hidden;
+      .MuiGrid-container {
+        height: 100%;
+        .MuiGrid-item {
+          width: 45%;
+        }
+        .left {
+          margin: auto;
+          .top {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+          }
+          .bottom {
+            margin-top: 20px;
+            max-width: 80%;
+            color: #494949;
+            font-size: 18px;
+          }
+        }
+        .right {
+          position: relative;
+          .ellipse-light {
+            position: absolute;
+            width: 711px;
+            height: 711px;
+            top: 10%;
+            left: -21%;
+            background-color: #fff8f5;
+            border-radius: 50%;
+            z-index: -1;
+          }
+        }
+      }
+    }
+
+    .section-one,
+    .section-three {
+      background-color: #222222;
+      height: 636px;
+      color: #ffffff;
+      overflow: hidden;
+      &.light {
+        background-color: #fff8f5;
+        color: #242120;
+      }
+      .MuiGrid-container {
+        height: 100%;
+        &.light {
+          display: flex;
+          flex-direction: row-reverse;
+        }
+        .MuiGrid-item {
+          width: 40%;
+        }
+        .left {
+          position: relative;
+          margin: auto;
+          .ellipse-dark {
+            position: absolute;
+            width: 631px;
+            height: 631px;
+            top: 7%;
+            left: 0;
+            background-color: #2e2e2e;
+            border-radius: 50%;
+            z-index: 3;
+          }
+          .image {
+            position: relative;
+            z-index: 4;
+            margin-top: 65px;
+            &.light {
+              margin-top: 97px;
+            }
+          }
+          .top {
+            font-weight: 700;
+            font-size: 48px;
+            line-height: 60px;
+          }
+          .bottom {
+            margin-top: 20px;
+            max-width: 80%;
+            color: #494949;
+            font-size: 18px;
+          }
+        }
+
+        .right {
+          margin: auto;
+          padding: 40px;
+          position: relative;
+          z-index: 7;
+          background-color: #222222;
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-around;
+          margin: auto;
+          &.light {
+            background-color: #fff8f5;
+            color: #242120;
+          }
+          .wrapper {
+            .top {
+              .title {
+                font-size: 32px;
+                font-weight: 700;
+              }
+              .tag {
+                width: fit-content;
+                font-size: 10px;
+                padding: 5px 9px;
+                border: 1px solid rgba(255, 255, 255, 0.4);
+                box-sizing: border-box;
+                border-radius: 4px;
+                &.light {
+                  color: #ff5c00;
+                  border: 1px solid rgba(255, 92, 0, 0.4);
+                }
+              }
+            }
+            .middle {
+              margin: 20px 0;
+              max-width: 400px;
+              line-height: 27px;
+            }
+            .bottom {
+              padding: 30px 0px;
+              width: fit-content;
+              .share-button {
+                text-transform: uppercase;
+                &.light {
+                  color: #ff5c00;
+                  &:hover {
+                    color: #242120;
+                  }
+                }
+                &:hover {
+                  cursor: pointer;
+                  color: #f86612;
+                }
+                &:active {
+                  opacity: 0.6;
+                }
+              }
+              .line {
+                height: 15px;
+                border: 1px solid #ff5c00;
+                border-color: #ff5c00 transparent transparent transparent;
+                border-radius: 70%/15px 5px 0 0;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .users-section {
+      width: 90%;
+      margin: 40px auto;
+      .wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        .user {
+          width: 33%;
+          .wrapper {
+            display: block;
+            padding: 40px;
+          }
+          .top {
+            margin-bottom: 30px;
+            img {
+              height: 200px;
+              width: 200px;
+              border-radius: 50%;
+            }
+          }
+          .middle {
+            .name {
+              font-size: 24px;
+              font-weight: 600;
+              color: #474747;
+              margin-bottom: 10px;
+            }
+            .info {
+              display: flex;
+              margin-bottom: 30px;
+              .location {
+                font-size: 15px;
+                font-weight: 500;
+                color: #535353;
+                margin: auto 0;
+                margin-right: 15px;
+              }
+              .type {
+                font-weight: 600;
+                color: #0d019a;
+                background-color: #eef8ff;
+                padding: 7px;
+                font-size: 13px;
+                margin: auto 0;
+                border-radius: 4px;
+                &.vendor {
+                  color: #049a01;
+                  background-color: #f0ffee;
+                }
+              }
+            }
+          }
+          .bottom {
+            width: 80%;
+            color: #474747;
+            line-height: 150%;
+          }
+        }
+      }
+    }
+
+    .section-five {
+      height: 370px;
+      margin-top: 20px;
+      background-color: #25201d;
+      color: #ffffff;
+      .MuiGrid-container {
+        height: 100%;
+        width: 70%;
+        min-width: 760px;
+        margin: 0 auto;
+        .MuiGrid-item {
+          width: 45%;
+        }
+        .left {
+          position: relative;
+          margin-left: 20px;
+          img {
+            margin-top: -35px;
+          }
+        }
+        .right {
+          margin: auto;
+          .top {
+            font-weight: 700;
+            font-size: 40px;
+            line-height: 45px;
+          }
+          .middle {
+            margin: 30px 0;
+            font-size: 14px;
+          }
+          .bottom {
+            width: 90%;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            padding: 4px;
+            background-color: #514d4a;
+            border-radius: 5px;
+            font-size: 14px;
+            .text {
+              margin: auto 10px;
+              opacity: 0.6;
+            }
+            .button {
+              background-color: #ffffff;
+              color: #242120;
+              font-size: 14px;
+              font-weight: 600;
+              padding: 15px 20px;
+              border-radius: 5px;
+              &:hover {
+                cursor: pointer;
+                color: #ffffff;
+                background-color: #242120;
+              }
+              &:active {
+                opacity: 0.6;
+              }
+            }
+          }
+        }
+      }
+    }
+
+    .footer {
+      height: 404px;
+      background-color: #25201d;
+      color: #ffffff;
+      .MuiGrid-container {
+        height: 100%;
+        width: 80%;
+        margin: 0 auto;
+        .MuiGrid-item {
+          width: 20%;
+          margin-top: 60px;
+          p {
+            margin-bottom: 20px;
+            font-size: 14px;
+            font-weight: 400;
+            &:hover {
+              cursor: pointer;
+              opacity: 0.8;
+            }
+            &:active {
+              opacity: 0.5;
+            }
+          }
+          .title {
+            font-size: 16px;
+            font-weight: 700;
+          }
+          .icons {
+            margin-bottom: 20px;
+            img {
+              margin-right: 7px;
+              &:hover {
+                cursor: pointer;
+                opacity: 0.8;
+              }
+              &:active {
+                opacity: 0.5;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.MuiPaper-elevation4 {
+  box-shadow: unset !important;
+}
