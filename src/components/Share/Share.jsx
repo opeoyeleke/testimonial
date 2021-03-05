@@ -177,7 +177,6 @@ export default function Share({ dataState, setDataState, setShowPopover }) {
                         setUserType(event.target.value);
                       }}
                       value={userType}
-                      style={{ justifyContent: "flex-end" }}
                     >
                       <FormControlLabel
                         value="customer"
@@ -220,9 +219,6 @@ export default function Share({ dataState, setDataState, setShowPopover }) {
                     color="primary"
                     variant="contained"
                     size="large"
-                    // onClick={() => {
-                    //   onFinish();
-                    // }}
                   >
                     Share your story!
                   </Button>
