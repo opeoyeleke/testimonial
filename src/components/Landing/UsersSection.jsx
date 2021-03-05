@@ -3,13 +3,11 @@ import React from "react";
 import "./landing.scss";
 
 export default function UsersSection({ data }) {
-  const dataCopy = data;
-
   return (
     <div className="users-section ">
       <div className="wrapper">
-        {dataCopy &&
-          dataCopy.map((user) => (
+        {data &&
+          data.map((user) => (
             <div className="user" key={user?.id}>
               <div className="wrapper">
                 <div className="top">
@@ -24,7 +22,7 @@ export default function UsersSection({ data }) {
 
                     <div
                       className={`type ${
-                        user?.user_type === "VENDOR" ? "vendor" : ""
+                        user?.user_type === "vendor" ? "vendor" : ""
                       }`}
                     >
                       {user?.user_type}

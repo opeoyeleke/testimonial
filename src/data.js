@@ -16,7 +16,7 @@ export const data = [
     id: 1,
     name: "Joseph Ike",
     img: Image1,
-    user_type: "CUSTOMER",
+    user_type: "customer",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: "Ikeja",
@@ -25,7 +25,7 @@ export const data = [
     id: 2,
     name: "Adetola Fashina",
     img: Image2,
-    user_type: "CUSTOMER",
+    user_type: "customer",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: "Ibadan",
@@ -34,7 +34,7 @@ export const data = [
     id: 3,
     name: "Emmanuel Fayemi",
     img: Image3,
-    user_type: "CUSTOMER",
+    user_type: "customer",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: "Akoka",
@@ -43,7 +43,7 @@ export const data = [
     id: 4,
     name: "Chisom Obilor",
     img: Image4,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: "Magodo",
@@ -52,7 +52,7 @@ export const data = [
     id: 5,
     name: "Adunoluwa Adeyemi",
     img: Image5,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: "Iwo Road",
@@ -61,7 +61,7 @@ export const data = [
     id: 6,
     name: "Chidi Okeke",
     img: Image6,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: "Somolu",
@@ -70,7 +70,7 @@ export const data = [
     id: 7,
     name: "Temi Obadofin",
     img: Image7,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: null,
@@ -79,7 +79,7 @@ export const data = [
     id: 8,
     name: "Promise Ejiofor",
     img: Image8,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: null,
@@ -88,7 +88,7 @@ export const data = [
     id: 9,
     name: "Feyisola Arinola",
     img: Image9,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: null,
@@ -97,7 +97,7 @@ export const data = [
     id: 10,
     name: "Karen Ibeh",
     img: Image10,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: null,
@@ -106,7 +106,7 @@ export const data = [
     id: 11,
     name: "Oluchi Uzo",
     img: Image11,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: null,
@@ -115,7 +115,7 @@ export const data = [
     id: 12,
     name: "Amos Okafor",
     img: Image12,
-    user_type: "VENDOR",
+    user_type: "vendor",
     text:
       "Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim. Elit aute irure tempor cupidatat incididunt sint deserunt ut voluptate aute id deserunt nisi. Aliqua id fugiat nostrud irure ex duis ea quis id quis ad et. Sunt qui esse pariatur duis deserunt mollit dolore cillum minim tempor enim.",
     location: null,

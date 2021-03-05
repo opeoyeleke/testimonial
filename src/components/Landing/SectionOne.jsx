@@ -5,7 +5,7 @@ import { Typography, Grid } from "@material-ui/core";
 
 import Ladies from "./../../assets/black-beautiful-ladies-smiling.png";
 
-export default function SectionOne() {
+export default function SectionOne({ setShowPopover }) {
   return (
     <Grid className="section-one" item xs={12}>
       <Grid container justify="center">
@@ -32,7 +32,12 @@ export default function SectionOne() {
             </Typography>
 
             <div className="bottom">
-              <Typography className="share-button">
+              <Typography
+                className="share-button"
+                onClick={() => {
+                  setShowPopover(true);
+                }}
+              >
                 Share your own story!
               </Typography>
               <div className="line"></div>
