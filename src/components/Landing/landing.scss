@@ -1,5 +1,6 @@
 @media (max-width: 820px,) {
   .landing-page {
+    margin-top: 64px;
     .navbar-main {
       height: 64px;
       padding: 0 7vw;
@@ -458,6 +459,7 @@
 
 @media (min-width: 820px,) {
   .landing-page {
+    margin-top: 80px;
     .navbar-main {
       height: 80px;
       padding: 0 10vw;
@@ -470,7 +472,7 @@
       font-size: 13px;
       font-weight: 400;
       border-bottom: 1px solid rgba(0, 0, 0, 0.08);
-      z-index: 5;
+      z-index: 10;
       .left {
         margin: auto 0;
       }

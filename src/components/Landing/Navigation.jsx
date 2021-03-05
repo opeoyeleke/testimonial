@@ -8,7 +8,7 @@ import Logo from "./../../assets/logo.svg";
 export default function Navigation() {
   return (
     <div>
-      <AppBar className="navbar-main" position="sticky">
+      <AppBar className="navbar-main" position="fixed">
         <div className="left">
           <img src={Logo} alt="" />
         </div>
